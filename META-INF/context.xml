@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/accesscounter" docBase="/accesscounter" reloadable="true">
+  <Resource name="jdbc/accesscounter"
+    auth="Container"
+    type="javax.sql.DataSource"
+    username="accesscounteruser"
+    password="XXXXXXXXX"
+    driverClassName="org.postgresql.Driver"
+    url="jdbc:postgresql://localhost/accesscounterdb?currentSchema=accesscounter"
+    validationQuery="SELECT * FROM ACCESSCOUNTER" />
+  />
+</Context>
