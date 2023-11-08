@@ -1,0 +1,5 @@
+create table accesscounter.accesscounter (
+  counterid varchar(32) not null primary key,
+  counter integer not null,
+  updated timestamp not null
+);
